@@ -1,0 +1,26 @@
+{
+  "apps": [
+    {
+      "root": "src",
+      "outDir": "dist",
+      "assets": ["assets", "favicon.ico"],
+      "index": "index.html",
+      "main": "main.ts",
+      "polyfills": "polyfills.ts",
+      "prefix": "app",
+      "styles": [
+        "styles.css",
+        "./assets/css/bootstrap.min.css",
+        "./assets/css/LineIcons.css",
+        "./assets/css/default.css",
+        "./assets/css/style.css",
+        "./assets/css/style.css.map"
+      ],
+      "environmentSource": "environments/environment.ts",
+      "environments": {
+        "dev": "environments/environment.ts",
+        "prod": "environments/environment.prod.ts"
+      }
+    }
+  ]
+}
